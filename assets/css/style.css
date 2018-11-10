@@ -1,0 +1,1460 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800|Raleway');
+/*------------------------------------------------------------------
+[Master Stylesheet]
+
+Project:    Project Name
+Version:    1.0
+Last change:    24/03/17 [fixed Float bug, vf]
+Author Name: Author Name
+Primary use:    Project Type
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+1. Body
+2.
+-------------------------------------------------------------------*/
+
+/*
+==========================================
+    Reset Css
+==========================================
+*/
+ul {
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+html,body{
+	
+	height:100%;
+	width:100%;
+	
+}
+
+.section-padding{
+	padding:80px ;
+}
+.contact-top{
+	padding:80px;
+}
+.contact-pa{
+	padding-top:50px;
+}
+body{
+	margin:0;
+	overflow-x:hidden;
+	padding:0;
+	
+}
+
+
+/*
+==========================================
+ main-headers css
+==========================================
+*/
+
+.main-headers{	
+	max-width:100%;
+	z-index:99;
+}
+.main-headers:after{
+	background:#5d5d5d;
+	position:absolute;
+	content: "";
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	opacity:.66;
+	z-index:-1;
+	
+}
+
+/*
+==========================================
+main--menu css
+==========================================
+*/
+
+.main-menu{
+	
+	right:0 !important;
+	margin-left:auto!important;
+}
+.main-menu ul {
+    list-style: none;
+}
+
+.main-menu ul li {
+}
+
+.navbar-collapse {
+	
+}
+.main-menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #FFF;
+    transition:.5s;
+}
+
+.main-menu ul li a:hover{
+    
+    color: #fe320a;
+}
+.logo img{
+	margin-top:15px;
+	
+}/*
+==========================================
+new menu csss 
+
+==========================================
+*/
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color:red;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+	transition:1s;
+}
+
+
+/*
+==========================================
+header-img  css
+==========================================
+*/
+.carousel-img-1 {
+	background:url(../img/index.png);
+	height:auto;
+	background-repeat:no-repeat;
+    background-size:cover;
+	width:100%;
+}
+.carousel-img-2{
+	background:url(../img/img1.jpg);
+	height:auto;
+	background-repeat:no-repeat;
+    background-size:cover;
+	width:100%;
+	
+	
+}
+
+
+.carousel-img-3{
+	background:url(../img/img2.jpg);
+	height:auto;
+	background-repeat:no-repeat;
+    background-size:cover;
+	width:100%;
+	
+}
+
+.carousel-item{
+	height:600px;
+}
+
+
+
+/**  text-area  cs   ss ***/
+.text-area{
+		text-align:center;
+	 margin-top:20%;
+}
+.text-area span{
+	
+	 color:#fe320a;
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 600;
+}
+.text-area h1{
+	 
+	  color:#fff;
+	  font-size:53px;
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 600;
+	  margin-bottom:50px;
+	  
+}
+.text-area p{
+     margin: 0 auto;
+	  color:#fff;
+	  font-family: 'Raleway', sans-serif;
+      font-weight: 600;
+	  font-size:16px;
+     line-height:24px;
+	  margin-bottom:50px;
+ 
+
+ }
+
+.text-area a{
+	
+	background:#fe320a;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 28px 10px 28px ;
+	font-size:22px;
+	font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+	 transition:.3s;
+
+
+}
+.text-area a:hover{
+	background:#FFF;
+	color:#fe320a;
+}
+
+/*
+==========================================
+anout section  css
+==========================================
+*/
+
+.about-area{
+	background:#f6f6f6;
+	overflow:hidden;
+}
+.about-header{
+	overflow:hidden;
+}
+.section-header span{
+	color:#fe320a;
+	text-transform:uppercase;
+}
+.section-header h2{
+	position:relative;
+	font-size:30px;
+     color:#000;
+	  font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+	 text-transform:uppercase;
+}
+.section-header h2:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    height: 1px;
+    width: 120px;
+    background: #fe320a;
+    left: 0;
+    margin-left: 45%;
+    margin-top: 8px;
+
+	
+}
+.section-header h2:before{
+	
+	content: "";
+position: absolute;
+top: 100%;
+height: 16px;
+width: 15px;
+border-radius: 50%;
+background: #fe320a;
+margin-left: 50%;
+left: 0;
+
+	
+}
+/********** about-left css************/
+
+.about-left{
+	
+	position:relative;
+}
+.about-left img{
+	width:100%;
+	height:auto;
+}
+
+
+.about-left-overly h2{
+
+     text-transform:uppercase;
+     font-size:26px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight: 500;	
+	 color:#fff;
+}
+.about-left-overly{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	z-index:0;
+	padding:11px;
+}
+.about-left-overly ul{
+	
+}
+.about-left-overly ul li{
+display:inline-block;
+	list-style:none;
+	padding:8px;
+}
+.about-left-overly ul li a{
+	color:#fff;
+	text-decoration:none;
+	padding: 5px 7px 5px 7px;
+	background:#252526;
+	border-radius:55%;
+	font-size:15px;
+	transition:.4s;
+	
+}
+.about-left-overly ul li a:hover{
+	background:#fff;
+	color:#000;
+}
+
+.about-left-overly:after{
+	
+	content: "";
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:-1;
+	background:#414a50;
+	opacity:.69;
+	
+	
+	
+	}
+
+/********** about-right css************/
+.about-right h2{
+	
+	 font-size:26px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight: 600;	
+	 color:#000;
+	 
+}
+.about-right p{
+	  font-size:14px;
+	  font-family: 'Raleway', sans-serif;
+      font-weight: 500;	
+	 color:#000;
+	 line-height:26px;
+	 margin-top:28px;
+	 
+	
+}
+.about-right a{
+	
+	background:#fe320a;
+	padding:8px 13px 8px 13px;
+	color:#FFF;
+	text-decoration:none;
+	font-weight:600;
+	  font-size:20px;
+	font-family: 'Raleway', sans-serif;
+	display:inline-block;
+	transition:.3s;
+    margin-top:30px;
+	
+}
+
+.about-right a:hover{
+	background:#fff;
+	color:#fe320a;
+	
+}
+/**** play-bg csss *****/
+
+.play-bg:after{
+	content: "";
+	position:absolute;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	z-index:-1;
+	background:#000;
+	opacity:.60;
+}
+.play-bg{
+	background: url(../img/play.png);
+	z-index:1;
+	
+	width: 100%;
+	padding-bottom: 90px;
+	position: relative;
+	background-size: cover;
+	background-repeat: no-repeat;
+		
+
+
+}
+.play-bg h2{
+	padding:90px 0px 20px 0px ;
+	font-weight:700;
+	 font-size:36px;
+	font-family: 'Raleway', sans-serif;
+	color:#fff;
+	
+}
+.play-bg a{
+	text-decoration:none;
+	font-weight:700;
+	  font-size:32px;
+	font-family: 'Raleway', sans-serif;
+	border:1px solid #fff;
+	border-radius:10% 10% 10% 10%;
+	padding:10px 15px 10px 20px;
+	
+	
+}
+.video-button:hover{
+	background:#0000;
+	color:#FFF;
+}
+
+
+/***************  our servise csss **************/
+
+.servise-area {
+	background:#ffffff;
+}
+.servises{
+	
+	
+}
+
+.servise-area .section-header h2:before{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:16px;
+	width:15px;
+	border-radius:50%;
+	background:#fe320a;
+	margin-left: 50%;
+    left: 0;
+
+	
+}
+
+.servises .contact-area{
+	
+	
+}
+.servises .contact-area i{
+	
+	color:#ff0000;
+	font-weight:600;
+	  font-size:48px;
+	padding:70px 0px 0px 20px;	
+	
+	
+	
+	
+	
+	
+}
+.servises .contact-area h2{
+	 font-weight:600;
+	  font-size:24px;
+	font-family: 'Raleway', sans-serif
+}
+.servises .contact-area p{
+	
+	font-weight:500;
+	  font-size:14px;
+	font-family: 'Raleway', sans-serif
+}
+
+
+/***************  my skill  csss **************/
+
+.skill-area{
+	background:#f3f3f3;
+	
+}
+
+.skill-area .left-area-skill{}
+.skill-area .left-area-skill h3{
+	
+	 font-weight:600;
+	 font-size:24px;
+	font-family: 'Montserrat', sans-serif;
+	padding:0px 0px 20px 0px ;
+	color:#606060;
+	
+}
+.skill-area .left-area-skill p{
+	  font-weight:400;
+	  font-size:14px;
+	 font-family: 'Raleway', sans-serif;
+	 line-height:26px;
+		color:#606060;
+}
+.skill-area .right-area-skill{
+	
+	
+}
+.skill-area .right-area-skill .skil-text p{
+	
+	font-weight:300;
+	 font-size:14px;
+	font-family: 'Montserrat', sans-serif;
+	padding:0px 0px 10px 0px ;
+	color:#606060;
+	line-height: 26px;
+padding-top: 10px;
+}
+.skill-area .right-area-skill .skil-text h3{
+	font-weight:400;
+	padding-top:50px;
+	 font-size:24px;
+	font-family: 'Montserrat', sans-serif;	
+	color:#606060;
+	
+}
+.skill-area .right-area-skill .skillbar{
+padding-bottom:15px;
+width: 100%;
+padding-top:5px;
+padding-left:5px;
+border-radius: 30px;
+height:15px;	
+
+	
+}
+.skill-area .right-area-skill .skillbar-bar{
+
+height: 7px;
+border-radius: 30px;
+background: #ff0000;
+  width: 0px;
+  padding-top:10px;
+  display: inline-block;
+  position:absolute;
+}
+/*************** client-area  csss **************/
+.client-area{
+	background:url(../img/client.png);
+
+	background-repeat:no-repeat;
+    background-size:cover;
+	position:relative;
+	padding:50px;
+	width:100%;
+}
+.client-area:before{
+	
+	content: "";
+	position:absolute;
+	top:0%;
+	left:0px;
+	height:100%;
+	width:100%;
+	background:#000;
+    opacity:.60;
+
+	
+}
+
+.client-area .item-1{
+padding-top:5%;
+text-align:center;
+}
+.client-area .item-1 i{
+	border:1px solid #FFF;
+	border-radius:50%;
+	font-size:22px;
+	padding:10px;
+	color:#FFF;
+}
+.client-area .item-1 p{
+	color:#FFF;
+	font-weight:600;
+	  font-size:26px;
+	 font-family: 'Raleway', sans-serif;
+}
+
+
+.client-area .item-2{
+	padding:5%;
+	text-align:center;
+}
+.client-area .item-2 i{
+	border:1px solid #FFF;
+	border-radius:50%;
+	font-size:22px;
+	padding:10px;
+	color:#FFF;
+}
+.client-area .item-2 p{
+	color:#FFF;
+	font-weight:600;
+	  font-size:26px;
+	 font-family: 'Raleway', sans-serif;}
+
+
+.client-area .item-3{padding:5%;text-align:center;}
+.client-area .item-3 i{
+	color:#FFF;
+	border:1px solid #FFF;
+	border-radius:50%;
+	font-size:22px;
+	padding:10px;
+}
+.client-area .item-3 p{
+	color:#FFF;
+	font-weight:600;
+	  font-size:26px;
+	 font-family: 'Raleway', sans-serif;
+	
+}
+
+
+.client-area .item-4{padding:5%; text-align:center;}
+.client-area .item-4 i{
+	color:#FFF;
+	border:1px solid #FFF;
+	border-radius:50%;
+	font-size:22px;
+	padding:10px;
+}
+.client-area .item-4 p{
+	color:#FFF;
+	font-weight:600;
+	  font-size:26px;
+	 font-family: 'Raleway', sans-serif;
+	 }
+
+
+/***************our-protfolio csss **************/
+
+.our-protfolio .section-header h2:after{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:1px;
+	width:120px;
+	background:#fe320a;
+	left:0;
+	margin-left: 44%;
+margin-top: 8px;
+
+
+	
+}
+.our-protfolio .section-header h2:before{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:16px;
+	width:15px;
+	border-radius:50%;
+	background:#fe320a;
+	margin-left:50%;
+
+	
+}
+.our-protfolio{
+	
+	background:#FFF;
+}
+
+.our-protfolio .protfolio{}
+.our-protfolio .protfolio{}
+.our-protfolio .protfolio .protfolio-menu{
+	
+	text-align:center;
+
+}
+.our-protfolio .protfolio .protfolio-menu button{
+	color:#3c3c3c;
+	 font-weight:500;
+	  font-size:14px;
+	  font-family: 'Montserrat', sans-serif;
+		text-transform:uppercase;
+		border:none;
+	background:transparent;
+	transition:.3s;
+	
+	
+}
+.our-protfolio .protfolio .protfolio-menu button:hover{
+	
+	color:#fe320a;
+}
+
+.our-protfolio .protfolio .protfolio-contant{}
+
+
+.protfolio-item {
+	position:relative;
+	margin-top:30px;
+}
+
+.protfolio-item img{
+	
+	max-width:100%;
+}
+
+.protfolio-item .overflow-item a{
+	font-size:25px;	
+	color:#FFF;
+	cursor:pointer;
+	
+}
+.protfolio-item .overflow-item{
+	position:absolute;
+	top:0;
+	left:0;
+	background:#ef0d0d66;
+	z-index:1;
+	height:100%;
+	width:100%;
+	align-items:center;
+	justify-content:center;
+	opacity:0;
+	display:flex;
+	visibility:hidden;
+	transition:.3s;
+	
+}
+.protfolio-item:hover .overflow-item{
+	visibility:visible;
+	opacity:1;
+}
+
+/*************** our team csss **************/
+
+.our-team {
+	background:#e1e1e1;
+}
+.our-team .team-img:hover .overflow-team{
+	opacity:1;
+	transition:.3s;
+	
+	
+}
+.our-team .team-img img{
+	
+	
+	max-width:100%;
+}
+.our-team .team-img{
+	 cursor:pointer;
+	position:relative;
+}
+.our-team .overflow-team{
+	
+	opacity:0;
+}
+.overflow-team h2{
+
+     text-transform:uppercase;
+     font-size:26px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight: 500;	
+	 color:#fff;
+}
+.overflow-team{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	z-index:0;
+	padding:11px;
+}
+
+.overflow-team ul li{
+display:inline-block;
+	list-style:none;
+	padding:8px;
+}
+.overflow-team ul li a{
+	color:#000;
+	text-decoration:none;
+	padding: 5px 7px 5px 7px;
+	background:#FFF;
+	border-radius:55%;
+	font-size:15px;
+	transition:.4s;
+	
+}
+.overflow-team ul li a:hover{
+	background:#000;
+	color:#FFF;
+}
+
+.overflow-team:after{
+	
+	content: "";
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	z-index:-1;
+	background:#fe320a;
+	}
+
+
+
+
+
+
+
+.our-team .team-img .hover{
+	position:absolute;
+	top:0;
+	left:0;
+	background:#ef0d0d66;
+	z-index:1;
+	height:100%;
+	width:100%;
+	align-items:center;
+	justify-content:center;
+	opacity:0;
+	display:flex;
+	visibility:hidden;
+	transition:.3s;
+	
+}
+.our-team .team-img:hover .hover{
+	visibility:visible;
+	opacity:1;
+}
+
+
+/*************** testimonial  csss **************/
+
+.testimonial{
+	
+	background:url(../img/testimonial.png);
+	height:auto;
+	background-repeat:no-repeat;
+	z-index:0;
+	color:#FFF;
+    background-size:cover;
+	width:100%;
+	position:relative;
+	text-align:center;
+}
+.testimonial:after{
+	content: "";
+	position:absolute;
+	top:0;
+	left:0;
+	background:#000;
+	opacity:.52;
+	height:100%;
+	width:100%;
+  z-index:-1
+	
+}
+
+
+.testimonial .owl-carousel img{
+
+ width:auto;
+ margin:0 auto;
+	
+}
+.testimonial .testimonial-item{
+	text-align:center;
+
+	
+}
+.testimonial .testimonial-item h4{
+	padding-top:20px;
+	text-transform:uppercase;
+     font-size:18px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight:600;
+	 
+	 
+	
+}
+.testimonial .testimonial-item p{
+     font-size:14px;
+	 padding-top:20px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight:300;
+	 
+}
+
+
+
+/*============ letest post ===========*/
+.letest-blog{}
+.letest-blog .section-header span{
+	color:#fe320a;
+	text-transform:uppercase;
+}
+.letest-blog .section-header h2{
+	position:relative;
+	font-size:30px;
+     color:#000;
+	  font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+	 text-transform:uppercase;
+}
+.letest-blog .section-header h2:after{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:1px;
+	width:120px;
+	background:#fe320a;
+	left:0;
+	margin-left:45%;
+	margin-top:8px;
+
+	
+}
+.letest-blog .section-header h2:before{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:16px;
+	width:15px;
+	border-radius:50%;
+	background:#fe320a;
+	margin-left:50%;
+
+	
+}
+
+.letest-blog .blog-item{
+	box-shadow:0 0 10px #000;
+}
+.letest-blog .blog-item .blog-img{
+	border-bottom:5px solid #464646;
+}
+.letest-blog .blog-item .blog-img img{
+	
+	 max-width:100%;
+	 
+}
+.letest-blog .blog-item .blog-text .button:hover{
+	
+	background:#FFF;
+	color:#252525;
+}
+.letest-blog .blog-item .blog-text a{
+	
+padding: 7px 13px 7px 13px;
+text-transform:uppercase;
+	text-decoration:none;
+		background:#252525;
+	color:#FFF;
+	border:1px solid #252525;
+	font-size:12px;
+	font-family: 'Raleway', sans-serif;
+	transition:.3s;
+	display:inline-block;
+}
+.letest-blog .blog-item .blog-text a.button{
+
+
+	margin:10px 0px 20px 0px;
+	
+	
+}
+.letest-blog .blog-item .blog-text .blog-title{
+	
+	
+	padding:15px 0px 0px 0px;
+}
+.letest-blog .blog-item .blog-text{
+	padding:0px 0px 0px 15px;
+}
+.letest-blog .blog-item .blog-text .date{
+	
+	padding:10px 0px 15px 5px;
+	font-size:12px;
+	font-family: 'Raleway', sans-serif;
+     font-weight:300;
+      color:#433f3f
+}
+.letest-blog .blog-item .blog-text p{
+	
+	   font-size:14px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight:300;
+	 line-height:24px;
+      color:#433f3f;
+	 
+}
+.letest-blog .blog-item .blog-text h3{
+	 font-size:24px;
+      color:#433f3f;
+	  font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+}
+
+/*************** contact-area csss **************/
+.contact-us{
+	background:url('../img/blog.png');
+	background-size:cover;
+	background-repeat:no-repeat;
+	z-index:0;
+	position:relative;
+	width:100%;
+	height:auto;
+	
+}
+
+.contact-us:after{
+	content: "";
+	top:0;
+	left:0;
+	background:#000;
+	opacity:.55;
+	z-index:-1;
+	height:100%;
+	width:100%;
+	position:absolute;
+}
+
+
+.contact-us .section-header span{
+	color:#fe320a;
+	text-transform:uppercase;
+}
+.contact-us .section-header h2{
+	position:relative;
+	font-size:30px;
+     color:#FFF;
+	  font-family: 'Montserrat', sans-serif;
+     font-weight: 600;
+	 text-transform:uppercase;
+}
+.contact-us .section-header h2:after{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:1px;
+	width:120px;
+	background:#fe320a;
+	left:0;
+	margin-left:45%;
+	margin-top:8px;
+
+	
+}
+.contact-us .section-header h2:before{
+	
+	content: "";
+	position:absolute;
+	top:100%;
+	height:16px;
+	width:15px;
+	border-radius:50%;
+	background:#fe320a;
+	margin-left:50%;
+	left:0;
+
+	
+}
+
+
+
+.contact-us .name input{
+	background:none;
+	border:none;
+	color:#FFF;
+	z-index:1;
+	padding: 5px 10px 5px 20px;
+	font-size:14px;
+	 font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+	 background:none;
+	border:1px solid #FFF;
+	border-radius:8px 8px 8px 8px;
+	width:100%;
+	color:#FFF
+}
+.contact-us .name{
+}
+/**** email css ****/
+.contact-us .email input{
+	background:none;
+	border:none;
+	color:#FFF;
+	z-index:1;
+	padding: 5px 10px 5px 20px;
+	font-size:14px;
+	 font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+	 background:none;
+	border:1px solid #FFF;
+	border-radius:8px 8px 8px 8px;
+	width:100%;
+	color:#FFF
+}
+.contact-us .email{
+	
+	
+}
+
+/**   massege  css ***/
+.contact-us .massege input{
+	background:none;
+	color:#FFF;
+	z-index:1;
+	font-size:14px;
+	  font-family: 'Raleway', sans-serif;
+     font-weight: 300;
+	 width:100%;
+	 height:200px;
+	border-radius:8px 8px 8px 8px;
+	border:1px solid #FFF;
+}
+.contact-us .massege{	
+	margin-top:20px;
+}
+
+
+.contact-us .send{
+	margin-top:20px;	
+	
+}
+.contact-us .send a{
+	text-decoration:none;	
+	padding:5px 10px 5px 12px;
+	 color:#FFF;
+	 font-size:14px;
+	 font-family: 'Montserrat', sans-serif;
+     font-weight: 300;
+	 border:1px solid #ff0000;
+	 transition:.3s;
+	 background:#ff0000;
+	 border-radius:8px 8px 8px 8px;
+	 display:block;
+	 
+	 
+	
+}
+.contact-us .send a:hover{
+	background:#FFF;
+	color:#ff0000;
+}
+
+/*******footer-section css ******/
+.footer-section{
+	background:#000;
+}
+.footer-section .copy-text p{
+	 color:#FFF;
+	 font-size:14px;
+	 font-family: 'Raleway', sans-serif;
+     font-weight: 600;
+	 padding-top:10px;
+}
+.footer-section .footer ul{
+	list-style:none;
+}
+.footer-section .footer ul li{
+	float:left;
+}
+.footer-section .footer ul li a{
+	text-decoration:none;
+	padding: 10px 10px 10px 10px;
+	color:#FFF;
+	display:inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*************** skill bar plugin csss **************/
+.skillbar {
+  position: relative;
+  display: inline-block;
+  margin: 15px 0;
+  width: 100%;
+  background: #000;
+  height: 35px;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.skillbar-title {
+ 
+  left: 0;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: #757575;
+ 
+
+}
+
+
+
+.skill-bar-percent {
+  position: absolute;
+  right: 10px;
+  top:-7px;
+  font-size: 11px;
+  height: 35px;
+  line-height: 35px;
+  color: #ffffff;
+  color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( max-width: 991px){
+	
+	.logo img {
+    margin-top:0px;
+    }
+	.text-area h1 {
+    font-size: 45px;    
+    margin-bottom: 26px;
+	}
+		.about-left-overly ul li {
+	   
+		padding: 2px;
+	}.about-left-overly ul li a {
+		
+		font-size: 10px;
+		transition: .4s;
+	}
+	.about-left-overly {
+		
+
+		padding: 5px;
+	}
+
+	
+}
+
+@media( min-width: 767px) and ( max-width: 900px){
+	.logo img {
+      margin-left: -55px;
+ }
+	
+}
+@media( max-width: 768px){
+	.text-area h1 {
+    font-size: 34px;
+    margin-bottom: 21px;
+	}
+	.text-area p {
+		   line-height: 17px;		
+		
+	}
+	.main--menu ul li {
+    float: none;
+  
+    }
+	.main--menu ul {
+    list-style: none;
+    float: none;
+   }
+   .contact-us .email{
+	 margin-top:20px;
+		
+	}
+	.section-header h2::after {
+
+		margin-left: 40%;
+	}
+	   .our-protfolio .section-header h2::after {
+
+		margin-left: 40%;
+	}
+	.letest-blog .section-header h2::after {
+	 
+		margin-left: 40%;
+	}
+     .contact-us .section-header h2::after {
+    
+    margin-left: 40%;
+	   }
+
+	
+	
+}
+
+
+@media( max-width:500px ){
+	.section-header h2::after {
+
+		margin-left: 35%;
+	}
+	   .our-protfolio .section-header h2::after {
+
+		margin-left: 35%;
+	}
+	.letest-blog .section-header h2::after {
+	 
+		margin-left: 35%;
+	}
+     .contact-us .section-header h2::after {
+    
+       margin-left: 35%;
+	   }
+	   .section-header h2 {
+       font-size: 23px;
+			
+		}
+		.about-right a {
+		padding: 7px 12px 7px 12px;
+		font-size: 16px;
+		}
+		.skill-area .left-area-skill p {
+				 line-height: 20px;
+		}
+		.skill-area .right-area-skill .skil-text p {
+		   
+			line-height: 20px;
+		}
+				.about-right h2 {
+			font-size: 20px;
+		   
+			text-align: center;
+		}	
+		.about-right p {
+			
+			line-height: 20px;
+			margin-top: 28px;
+		}
+		.section-padding {
+			padding: 20px;
+		}
+}
+@media( max-width:650px ){
+	.contact-us .send a {
+    text-decoration: none;
+    padding: 5px 1px 5px 5px;
+    color: #FFF;
+    font-size: 12px;
+	}
+}
+@media( max-width:400px ){
+	
+	.text-area a {
+    padding: 8px 12px 8px 12px;
+    font-size: 16px;
+  }
+	
+
+	.text-area h1 {
+    font-size: 34px;
+    margin-bottom: 21px;
+    padding-top: 10%;
+	}
+	.text-area p {
+		   line-height: 17px;
+		   font-size: 10px;
+	}
+	.main--menu ul li a {
+     padding: 39px 15px 38px 15px;
+    font-size: 14px;
+	padding-left: 50%;
+	}
+	.logo img {
+		width:60%;
+	}.contact-top {
+		padding: 0px;
+	}
+}
+
+
+@media( max-width:284px ){
+	.text-area h1 {
+    margin-bottom: 21px;
+    padding-top: 34%;
+	font-size: 25px;
+	}
+	.text-area p {
+    margin-bottom: 30px;
+	 line-height: 14px;
+		
+	}
+	.logo img {
+		width:50%;
+	}
+	.carousel-inner{
+
+		display:none;
+	}.carousel-item{
+		
+		display:none;
+	}
+	.exta{
+		padding-top:22%;
+	}
+
+}
